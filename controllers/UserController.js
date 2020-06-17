@@ -19,7 +19,7 @@ exports.create = (req, res) => {
   		id_user : 1,
   		username : req.body.username,
   		email : req.body.email,
-  		password : "abc",
+  		password : "",
   		alamat : req.body.alamat,
   		no_tlp : req.body.no_tlp
   	}
